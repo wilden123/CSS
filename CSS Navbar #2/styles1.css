@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: slategray;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+}
+.nav_links a {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.nav_links li {
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: rgb(216, 191, 175);
+}
+
+button {
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color: rgb(86, 100, 180);
+  padding: 5px;
+  justify-content: end;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgb(216, 191, 175);
+}
+
+/* rgb(216, 191, 175) */
